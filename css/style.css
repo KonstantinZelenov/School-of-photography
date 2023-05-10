@@ -36,11 +36,12 @@ body {
     text-align: center;
     padding: 14px 16px;
     font-size: 30px;
+    text-decoration: none;
 }
 
 /* Изменить цвет при наведении */
 .topnav a:hover {
-    color: rgb(234, 233, 221);
+    color: rgb(198, 10, 13);
 }
 
 /* Гибкий контейнер с гибкими ээлементами */
