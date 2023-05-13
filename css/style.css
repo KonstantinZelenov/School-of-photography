@@ -107,3 +107,17 @@ img {
     width: 100%;
     padding: 5px;
 }
+.buttonnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button {
+   background-color: black; 
+   color: white;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   font-size: large;
+  
+}
