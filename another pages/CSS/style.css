@@ -8,12 +8,28 @@ body {
 header {
     background-size: contain;
     background-color: #ddd;
-    padding: 35px;
+    padding: 20px;
     border: 2px solid black;
     background-size: auto;
     text-align: center;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_img {
+  flex-basis: 10%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+#header {
+  flex-basis: 90%;
+  text-align: center;
+  flex-shrink: 2;
 }
 main {
     background-color: #f1f1f1;
