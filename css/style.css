@@ -17,7 +17,11 @@ header {
 }
 .nav {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;  
+    flex-basis: 20%;
+}
+h1 {
+    flex-basis: 80%;
 }
 
 body {
