@@ -109,6 +109,35 @@ footer {
     background: #ddd;
     border: 2px solid black;
 }
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.imageItems {
+  padding: 5px;
+  margin: 2px;
+}
+.firstthree {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.secondtwo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.thirdthree {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .forthtwo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
@@ -124,3 +153,4 @@ footer {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
