@@ -3,10 +3,7 @@
 }
 
 header {
-    background-repeat: no-repeat;
-    background-size: contain;
     background-color: #FFF;
-    padding: 10px 40px 10px 40px;
     background-size: auto;
     font-size: 20px;
     font-weight: none;
@@ -14,20 +11,22 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-width: 100%;
+    width: 100%;
     flex-wrap: wrap;
   
 }
-.nav {
+/* .nav {
     display: flex;
     flex-direction: column;  
   
-}
+} */
 h1 {
+    display: inline-block;
     font-style: normal;
     font-weight: 100;
     font-size: large;
     flex-shrink: 0;
+    padding-left: 10px;
 }
 
 body {
@@ -42,6 +41,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 /* Стиль ссылок в верхней панели навигации */
