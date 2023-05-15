@@ -88,8 +88,15 @@ body {
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 
 
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
+    .topnav {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }   
+}
+@media screen and (max-width: 800px) {
 
     .row,
     .navbar {
@@ -105,6 +112,12 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        flex-wrap: wrap;
+    }
+    .topnav {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
 }
