@@ -95,6 +95,18 @@ body {
     .navbar {
         flex-direction: column;
     } 
+    header {
+        background-color: #FFF;
+        background-size: auto;
+        font-size: 20px;
+        font-weight: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
 
 /* контейнер колонок */
