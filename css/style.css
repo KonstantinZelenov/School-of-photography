@@ -88,13 +88,16 @@ body {
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .topnav {
         overflow: hidden;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }   
+    header {
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 800px) {
 
@@ -119,6 +122,15 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    @media screen and (max-width: 400px) {
+        .topnav {
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
     }
 }
 
