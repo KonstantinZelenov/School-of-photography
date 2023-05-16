@@ -28,6 +28,10 @@ h1 {
     flex-shrink: 0;
     padding-left: 10px;
 }
+.main_title {
+    display: flex;
+    justify-content: center;
+}
 
 body {
     margin: 0;
