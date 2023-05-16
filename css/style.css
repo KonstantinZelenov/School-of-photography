@@ -28,10 +28,23 @@ h1 {
     flex-shrink: 0;
     padding-left: 10px;
 }
+
 .main_title {
     display: flex;
     justify-content: center;
 }
+.main_title_navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+h3 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
 
 body {
     margin: 0;
