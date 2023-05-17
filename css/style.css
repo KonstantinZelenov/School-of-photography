@@ -13,6 +13,11 @@ header {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
   
 }
 /* .nav {
@@ -22,11 +27,14 @@ header {
 } */
 h1 {
     display: inline-block;
-    font-style: normal;
-    font-weight: 100;
-    font-size: large;
     flex-shrink: 0;
-    padding-left: 10px;
+    padding-left: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1.97px;
+    text-transform: uppercase;
 }
 
 .main_title {
@@ -37,7 +45,14 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-end;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1.97px;
+    text-transform: uppercase;
+    display: flex;
+    
 }
 h3 {
     font-style: normal;
@@ -89,14 +104,14 @@ body {
 }
 
 .flex-container>div {
-    background-color:  #ddd;
+    background-color:  #FFF;
     margin: 10px;
     padding: 120px;
     font-size: 30px;
 }
 
 .footer {
-    background-color: #ddd;
+    background-color: #FFF;
     padding: 10px;
     text-align: center;
     margin-top: -30;
@@ -113,14 +128,14 @@ body {
 /* Sidebar/left column */
 .side {
     flex: 30%;
-    background-color:  #ddd;
+    background-color:  #FFF;
     padding: 10px;
 }
 
 /* Main column */
 .main {
     flex: 70%;
-    background-color: #ddd;
+    background-color: #FFF;
     padding: 10px;
 
 }
@@ -141,10 +156,13 @@ button {
    cursor: pointer;
    text-align: center;
    font-size: large;
+   width: 200px;
+   height: 50px;
+   margin-top: 30px;
   
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1020px) {
     .topnav {
         overflow: hidden;
         display: flex;
@@ -172,6 +190,7 @@ button {
         align-items: center;
         width: 100%;
         flex-wrap: wrap;
+    
     }
     .topnav {
         overflow: hidden;
@@ -179,6 +198,7 @@ button {
         justify-content: center;
         flex-wrap: wrap;
     }
+    
 }
 @media screen and (max-width: 500px) {
     .topnav {
