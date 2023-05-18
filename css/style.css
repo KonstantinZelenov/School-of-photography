@@ -201,6 +201,10 @@ hr {
     line-height: 22px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .alink a:hover {
     color: rgb(198, 10, 13);
 }
