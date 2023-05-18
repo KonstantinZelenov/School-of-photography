@@ -162,12 +162,7 @@ img {
   animation-duration: 1.5s;
 }
 
-footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    border: 2px solid black;
-}
+
 .imageContainer {
   display: flex;
   flex-direction: column;
@@ -216,6 +211,9 @@ footer {
 }
 .footer {
     margin-top: 30px;
+      background-color: #FFF;
+    padding: 10px;
+    text-align: center;
 
 }
 .footerlink {
