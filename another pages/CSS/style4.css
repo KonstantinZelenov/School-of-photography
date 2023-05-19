@@ -182,6 +182,14 @@ a {
   text-decoration: none;
   color: inherit;
 } 
+.indiphoto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
 
   @media screen and (max-width: 1020px) {
     .topnav {
