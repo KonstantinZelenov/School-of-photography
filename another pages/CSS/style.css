@@ -292,6 +292,12 @@ p {
   font-size: medium;
   text-align: justify;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+} 
+
   @media screen and (max-width: 1020px) {
     .topnav {
         overflow: hidden;
