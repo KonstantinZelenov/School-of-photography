@@ -286,9 +286,12 @@ hr {
     color: rgba(0, 0, 0, 0.4);
     white-space: pre-line;
     letter-spacing: 1.8px;
-
 }
 
+p {
+  font-size: medium;
+  text-align: justify;
+}
   @media screen and (max-width: 1020px) {
     .topnav {
         overflow: hidden;
