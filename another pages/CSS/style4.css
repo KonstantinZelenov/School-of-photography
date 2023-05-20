@@ -242,7 +242,17 @@ a {
   flex: 1 0 30%;
   position: relative;
   text-align: center;
-  color: white;
+  color: yellow;
+}
+.centerhead {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 400;
+
 }
 
 .photoPrice img {
