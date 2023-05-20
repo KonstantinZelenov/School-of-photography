@@ -79,9 +79,11 @@ h4 {
 }
 
 /* Изменить цвет при наведении */
-.topnav a:hover {
+
+ a:hover {
     color: rgb(198, 10, 13);
 }
+
 
 main {
   background-color: #FFF;
