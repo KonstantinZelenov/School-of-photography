@@ -87,13 +87,9 @@ body {
     padding: 14px 16px;
     font-size: 18px;
     text-decoration: none;
-
 }
 
 /* Изменить цвет при наведении */
-.topnav a:hover {
-    color: rgb(198, 10, 13);
-}
 
 /* Гибкий контейнер с гибкими ээлементами */
 .flex-container {
@@ -204,7 +200,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.alink a:hover {
+a:hover {
+    color: rgb(198, 10, 13);
+}
+button:hover {
     color: rgb(198, 10, 13);
 }
 

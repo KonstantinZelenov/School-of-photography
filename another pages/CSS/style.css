@@ -273,7 +273,7 @@ hr {
     font-size: 18px;
     line-height: 22px;  
 }
-.alink a:hover {
+a:hover {
     color: rgb(198, 10, 13);
 }
 .alink p {
