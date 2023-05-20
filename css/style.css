@@ -60,8 +60,10 @@ h1 {
 
 h3 {
     font-style: normal;
-    font-weight: 100;
-    font-size: large;
+    font-weight: 40;
+    font-size: 22px;
+    font-family: inherit;
+
 }
 
 
@@ -129,6 +131,12 @@ body {
     flex: 30%;
     background-color: #FFF;
     padding: 10px;
+}
+.side h3 {
+    text-align: center;
+}
+.side p {
+    text-align: justify;
 }
 
 /* Main column */
@@ -207,6 +215,7 @@ a:hover {
 button:hover {
     color: rgb(198, 10, 13);
 }
+
 
 .alink p {
     display: inline-block;
