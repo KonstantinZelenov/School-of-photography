@@ -251,44 +251,26 @@ a {
     transform: translate(-50%, -50%);
     font-style: normal;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 22px;
     letter-spacing: 1.97px;
     text-transform: uppercase;
-    
-}
-
-.centerhead1 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 1.97px;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 .centerhead2 {
     position: absolute;
     margin-bottom: 5px;
-    top: 43%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 45px;
     line-height: 22px;
     letter-spacing: 1.97px;
-    text-transform: uppercase;
-    flex-shrink: 2;
-
+    text-align: center;
 }
-
-
-
 
 .photoPrice img {
   width: 100%;
@@ -321,6 +303,23 @@ a {
 .morePrice img {
     width: 100%;
 }
+@media screen and (max-width: 1200px) {
+    .centerhead2 {
+        position: absolute;
+        margin-bottom: 5px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 22px;
+        letter-spacing: 1.97px;
+        text-align: center;
+    }
+}
+
+
 
   @media screen and (max-width: 1020px) {
     .topnav {
@@ -361,6 +360,13 @@ a {
         flex-wrap: wrap;
     
     }
+
+    .morePrice {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+    }
     .topnav {
         overflow: hidden;
         display: flex;
@@ -383,6 +389,20 @@ a {
     .nav {
         margin-bottom: 100px;
     }
+
+    .centerhead2 {
+        position: absolute;
+        margin-bottom: 5px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 22px;
+        letter-spacing: 1.97px;
+        text-align: center;
+    }
   
 }
 @media screen and (max-width: 500px) {
@@ -392,6 +412,20 @@ a {
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+    .centerhead2 {
+        position: absolute;
+        margin-bottom: 5px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 22px;
+        letter-spacing: 1.97px;
+        text-align: center;
     }
 }
 
