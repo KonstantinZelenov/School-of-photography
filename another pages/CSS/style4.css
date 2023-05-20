@@ -188,6 +188,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 100px;
 }
 .left {
     display: flex;
@@ -201,7 +202,7 @@ a {
     flex-shrink: 0;
     min-width: 400px;
     padding: 0;
-    margin: 0;
+    margin-bottom: 30px;
 }
 .right {
     flex-basis: 70%;
@@ -209,18 +210,22 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin: 0;
+    margin-bottom: 30px;
 }
 .left p {
   font-size: 24px;
   padding-right: 5px;
   margin-top: 0;
-  
+  letter-spacing: 1.8px;
+  font-weight: 600;
+  font-family: inherit;
+
 }
 .right p {
     margin-top: 0;
     font-style: normal;
-    
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .price {
@@ -247,6 +252,15 @@ a {
     header {
         justify-content: center;
     }
+    .price {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+      .photoPrice img {
+        width: 100%;
+        padding: 15px 10px 15px 10px;
+      }
 }
 @media screen and (max-width: 800px) {
 
