@@ -214,6 +214,13 @@ a {
 .left p {
   font-size: 24px;
   padding-right: 5px;
+  margin-top: 0;
+  
+}
+.right p {
+    margin-top: 0;
+    font-style: normal;
+    
 }
 
 .price {
