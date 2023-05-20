@@ -203,6 +203,7 @@ a {
     min-width: 400px;
     padding: 0;
     margin-bottom: 30px;
+    padding: 0 10px 0 10px;
 }
 .right {
     flex-basis: 70%;
@@ -216,7 +217,7 @@ a {
   font-size: 24px;
   padding-right: 5px;
   margin-top: 0;
-  letter-spacing: 1.8px;
+  letter-spacing: 1.7px;
   font-weight: 600;
   font-family: inherit;
 
@@ -236,7 +237,11 @@ a {
 }
 .photoPrice {
   flex: 1 0 30%;
+  position: relative;
+  text-align: center;
+  color: white;
 }
+
 .photoPrice img {
   width: 100%;
   padding: 0 10px 0 10px;
