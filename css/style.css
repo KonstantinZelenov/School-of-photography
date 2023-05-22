@@ -17,6 +17,8 @@ header {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    position: fixed;
+    top: 0;
    
 }
 
@@ -72,6 +74,7 @@ body {
     font-family: papirus;
     font-size: 15px;
     line-height: 1.6;
+    padding: 80px;
 }
 
 /* Стиль верхней панели навигации */

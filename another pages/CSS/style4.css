@@ -340,13 +340,7 @@ a {
         text-align: center;
     }
 
-    .right {
-        align-content: stretch;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-        margin-bottom: 30px;
-    }
+    
 }
 
 @media screen and (max-width: 1020px) {
@@ -489,6 +483,13 @@ a {
         font-weight: 600;
         font-family: inherit;
 
+    }
+    .right {
+        align-content: stretch;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-bottom: 30px;
     }
 }
 
