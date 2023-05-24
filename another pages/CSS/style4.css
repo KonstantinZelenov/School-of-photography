@@ -25,6 +25,7 @@ header {
     padding-right: 30px;
     position: fixed;
     top: 0;
+    z-index: 2;
 
 }
 
@@ -69,7 +70,7 @@ h4 {
 
 /* Стиль верхней панели навигации */
 .topnav {
-    overflow: hidden;
+
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
