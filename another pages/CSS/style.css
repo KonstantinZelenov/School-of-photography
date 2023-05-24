@@ -4,6 +4,7 @@
 body {
     font-family: papirus; 
     margin:0 10px 0 10px;
+    padding-top: 80px;
 }
 header {
     background-color: #FFF;
@@ -20,6 +21,8 @@ header {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    position: fixed;
+    top: 0;
 }
 
 h1 {
