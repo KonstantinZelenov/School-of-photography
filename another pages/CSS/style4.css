@@ -345,10 +345,6 @@ a {
         text-align: center;
     }
 
-    
-}
-
-@media screen and (max-width: 1020px) {
     .topnav {
         overflow: hidden;
         display: flex;
@@ -358,6 +354,10 @@ a {
 
     header {
         justify-content: center;
+        position: relative;
+    }
+    body {
+        padding-top: 0;
     }
 
     .price {

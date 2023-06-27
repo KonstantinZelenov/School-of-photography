@@ -303,7 +303,7 @@ a {
   color: inherit;
 } 
 
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 1200px) {
     .topnav {
         overflow: hidden;
         display: flex;
@@ -311,8 +311,12 @@ a {
         flex-wrap: wrap;
     }   
     header {
-        justify-content: center;
-    }
+      justify-content: center;
+      position: relative;
+  }
+  body {
+      padding-top: 0;
+  }
 }
 @media screen and (max-width: 800px) {
 

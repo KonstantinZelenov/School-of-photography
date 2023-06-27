@@ -263,7 +263,7 @@ h4 {
 }
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
     .topnav {
         overflow: hidden;
         display: flex;
@@ -273,6 +273,10 @@ h4 {
 
     header {
         justify-content: center;
+        position: relative;
+    }
+    body {
+        padding-top: 0;
     }
 }
 
