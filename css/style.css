@@ -735,7 +735,7 @@ img {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: white;
 }
 
 /* Fading animation */
@@ -798,7 +798,7 @@ img {
 }
 
 .active, .dotLS:hover {
-  background-color: #717171;
+  background-color: white;
 }
   /* End of CSS for Love Story*/
 
@@ -821,7 +821,7 @@ img {
 }
 
 .active, .dotEV:hover {
-  background-color: #717171;
+  background-color: white;
 }
 
   /* End of CSS Events*/
