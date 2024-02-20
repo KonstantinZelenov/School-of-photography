@@ -41,20 +41,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 110px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 22px;
-    letter-spacing: 1.97px;
-}
+
 
 h4 {
     display: inline-block;
@@ -94,7 +81,7 @@ a:hover {
 }
 
 
-main {
+.mainPrice {
     background-color: #FFF;
     padding: 0 40px 0 40px;
 }
@@ -465,7 +452,7 @@ a {
         text-align: center;
     }
 
-    h3 {
+    .priceList {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -526,4 +513,19 @@ a {
     .text {
         font-size: 11px
     }
+}
+
+.priceList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 110px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 22px;
+    letter-spacing: 1.97px;
 }
