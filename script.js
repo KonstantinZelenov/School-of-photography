@@ -1,6 +1,6 @@
 function mainPage () {
   let mainShow = document.getElementById("MainPage");
-  mainShow.style.display = "flex";
+  mainShow.style.display = "block";
    
 }
 
