@@ -32,6 +32,7 @@ function openPage(evt, cityName) {
 }
 
 tablinks.addEventListener("touchmove", openPage);
+tablink
 
 
 let slideIndex = 1;
