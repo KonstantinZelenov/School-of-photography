@@ -29,9 +29,11 @@ function openPage(evt, cityName) {
       top: 0,
       behavior: "smooth",
     });
+    
+    tablinks.addEventListener("touchmove", openPage);
 }
 
-tablinks.addEventListener("touchmove", openPage);
+
 
 
 
