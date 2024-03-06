@@ -4,6 +4,8 @@ function mainPage () {
    
 }
 
+let tablinks = document.getElementsByClassName("tablinks");
+
 function openPage(evt, cityName) {
     // Declare all variables
     let i, tabcontent, tablinks;
@@ -32,7 +34,11 @@ function openPage(evt, cityName) {
     
 }
 
-
+tablinks[0].addEventListener("touchmove", openPage);
+tablinks[1].addEventListener("touchmove", openPage);
+tablinks[2].addEventListener("touchmove", openPage);
+tablinks[3].addEventListener("touchmove", openPage);
+tablinks[4].addEventListener("touchmove", openPage);
 
 
 
