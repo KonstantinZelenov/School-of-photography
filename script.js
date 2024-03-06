@@ -30,7 +30,6 @@ function openPage(evt, cityName) {
       behavior: "smooth",
     });
     
-    tablinks.addEventListener("touchmove", openPage);
 }
 
 
