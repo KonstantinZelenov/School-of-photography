@@ -1,515 +1,531 @@
 <!DOCTYPE html>
+  <head>
+    <title>School of photography by Balashova Julia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Фотограф, фотография, фотосессия, фотопрогулка, фото школа">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
 
-<head>
-  <title>School of photography by Balashova Julia</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Фотограф, фотография, фотосессия, фотопрогулка, фото школа">
-  <meta name="description" content="">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+  <body id="Start">
+    <header class="header">
+      <a href="#Start">
+        <h1 class="header__title"  id = "Name">BALASHOVA JULIA</h1>
+      </a>
 
-<body id="Start" onload="mainPage()">
-  <header>
-    <a href="#Start">
-      <h1 id = "Name">BALASHOVA JULIA</h1>
-    </a>
-
-    <nav class="topnav">
-      <button class="tablinks" onclick="openPage(event, 'MainPage')">Main</button>
-      <button class="tablinks" onclick="openPage(event, 'Personal photo')">Personal photo</button>
-      <button class="tablinks" onclick="openPage(event, 'Love story')">Love story</button>
-      <a href="https://vk.com/video/playlist/-45908856_3?section=playlist_3" target="_blank">Video</a>
-      <button class="tablinks" onclick="openPage(event, 'Events')">Events</button>
-      <button class="tablinks" onclick="openPage(event, 'Price')">Price</button>
-      <a href="#contact">Контакты</a>
-    </nav>
-  </header>
+      <nav>
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
+            <button class="tablinks"  data-page="main-page">Main</button>
+          </li>  
+          <li class="header-nav-list-item">
+            <button class="tablinks"  data-page="Personal photo">Personal photo</button>
+          </li>  
+          <li class="header-nav-list-item">
+            <button class="tablinks"  data-page="Love story">Love story</button>
+          </li>
+          <li class="header-nav-list-item">
+            <button class="tablinks"  data-page="Events">Events</button>
+          </li>
+          <li class="header-nav-list-item">
+            <button class="tablinks"  data-page="Price">Price</button>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="https://vk.com/video/playlist/-45908856_3?section=playlist_3" target="_blank">Video</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="#contact">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
   <!-- TAB CONTENT MAINPAGE -->
-  <div id="MainPage" class="tabcontent"> 
- <!-- The flexible grid (content) -->
- <div class="row">
-  <div class="side">
+    <main id="main-page" class="main-page tabcontent"> 
+        <section class="main-page__section">
+          <ul class="main-page__aside-column">
+            <li>
+              <img
+              src="./images/photo-with-cat-school.jpg" alt="Несколько учениц фото школы  фотографируют кошку в фото студии">
+              <h3>О себе</h3>
+              <p>Журналист, фотограф, основатель Школы фотографии.
+              Закончила Журфак МГУ имени M. В. Ломоносова</p>
+            </li>
 
-    <img
-      src="https://sun1-88.userapi.com/impg/ljrwvQMZqV4fwz30YVKv27f3Qyy5DSZZyqOlPA/_81En3HObJY.jpg?size=2560x1707&quality=95&sign=086690aaddb6c05b2a1aa52c25e57395&type=album">
-    <h3>О себе</h3>
-    <p>Журналист, фотограф, основатель Школы фотографии.
-      Закончила Журфак МГУ имени M. В. Ломоносова</p>
+            <li>
+              <img
+              src="./images/Julia with a book.jpg" alt="Юлия закрывает половину лица книгой, которую написала">
+              <p>Соавтор книги про космос для детей.</p>
+            </li>
 
-    <img
-      src="https://sun9-22.userapi.com/impg/A1BKFpDgqdZf4XBBtE78v2kBDPPubTobL9up0A/CwAOCj7Z_9w.jpg?size=1100x733&quality=96&sign=a0fc2bfa6f864523d26271ac84e3d4b4&type=album">
-    <p>Соавтор книги про космос для детей.</p>
+            <li>
+              <img
+              src="./images/vague-photo.jpg">
+              <p>Моя работа в <a href="https://www.vogue.com/photovogue/photographers/19692" alt="Девочка сидит спиной в разрушенном помещении">VOGUE Italy</a>.</p>
+            </li>
 
-    <img
-      src="https://sun9-66.userapi.com/impg/P2L9nMVVpUF05a8E8k9eO4oDwlSQlygJfz2y7Q/1lLmbxb9gIg.jpg?size=1199x800&quality=95&sign=4c316f1ff98353dba85f6941fa7925de&type=album">
-    <p>Моя работа в <a href="https://www.vogue.com/photovogue/photographers/19692">VOGUE Italy</a>.</p>
-    <img
-      src="https://sun9-32.userapi.com/impf/c628327/v628327208/32a01/IRI1rO9KysA.jpg?size=533x800&quality=96&sign=24fb7906bfa3988482a7295b6d25db21&type=album">
-    <p>Много лет я занималась журналистикой, снимала репортажи, писала и редактировала тексты для СМИ.
-    </p>
-    <img src="https://sun9-77.userapi.com/c5268/u85665208/111500415/w_51cc7f0e.jpg">
-    <p>Выпускница курса "Космическая журналистика" под руководством космонавта Ю.М. Батурина на журфаке МГУ им.
-      Ломоносова</p>
+            <li>
+              <img
+              src="./images/miting-photo.jpg" alt="Фотограф-девочка с фотоаппаратом на митинге">
+              <p>Много лет я занималась журналистикой, снимала репортажи, писала и редактировала тексты для СМИ.
+              </p>
+            </li>
 
-  </div>
-  <div class="main">
-    <img
-      src="https://sun9-60.userapi.com/impg/5f1OAehqoiVizZc0cUqmahwD6IMNmQ9OPwb3Gw/8fUiUeYtJZg.jpg?size=1100x733&quality=96&sign=5fcc5d3e32b752c56a925a2b810459bc&type=album">
+            <li>
+              <img src="./images/Julia-with-a-cosmonaut.jpg" alt="Юля на фото с соавторами своей книги и руковителем-космонавтом Батуриным">
+              <p>Выпускница курса "Космическая журналистика" под руководством космонавта Ю.М. Батурина на журфаке МГУ им.
+              Ломоносова</p>
+            </li>
+          </ul>
+          <ul class="main-page__column">
+              <li class="main-page__column-li-item">
+                <img
+                  src="./images/pair-in-a-grass.jpg"
+                  alt="Пара влюбленных лежит в траве обнявшись">
 
-    <div class="buttonnav">
-      <button class="button" onclick="openPage(event, 'Personal photo')">Personal photo</button>
-    </div>
+                <button class="button tablinks"  data-page="Personal photo">Personal photo</button>
+              </li>
 
-    <img
-      src="https://sun9-19.userapi.com/impf/c638427/v638427476/4367d/W2FrBXSUKw8.jpg?size=800x533&quality=96&sign=90cc01d7a43a4a7cb20307ac5588451b&type=album">
+              <li class="main-page__column-li-item">
+                <img
+                src="./images/child-on-the-bed.jpg" alt="Маленький ребенок сидит на кровати">
 
-    <div class="buttonnav">
-      <button class="button" onclick="openPage(event, 'Love story')">Love story</button>
-    </div>
+                <button class="button tablinks"  data-page="Love story">Love story</button>
+              </li>
 
+              <li class="main-page__column-li-item">
+                <img
+                src="./images/croud-on-the-concert.jpg" alt="Толпа людей на концерте. В воздухе полно конфети">
 
-    <img
-      src="https://sun9-36.userapi.com/impg/ke6Rjma8TLfOxAE7qDcQfMuTGc4LbkT8ZxKhgg/KxYFRDjGpdM.jpg?size=1100x733&quality=96&sign=6e62fd7934707cfcfd1af0e1923e03b0&type=album">
+                <button class="button tablinks"  data-page="Events">Events</button>
+              </li>
+          </ul>
+        </section>
+    </main>
+    <!-- END OF TAB CONTENT MAINPAGE-->
 
-    <div class="buttonnav">
-      <button class="button" onclick="openPage(event, 'Events')">Events</button>
-    </div>
-  </div>
-</div>
-  </div>
-  <!-- END OF TAB CONTENT MAINPAGE-->
-
-<!-- TAB CONTENT PERSONAL PHOTO -->
-  <div id="Personal photo" class="tabcontent">
-    <main>
+    <!-- TAB CONTENT PERSONAL PHOTO -->
+    <main id="Personal photo" class="tabcontent">
 
       <h3 class="priceList">Personal photo</h3>
-    
-      <div class="imageContainer">
-        <div class="firstthree">
-       <div class="imageItems"><img src="https://sun9-3.userapi.com/impg/dJpjxyjglbp4mJevCLGPyDK_EB00Q8NaMafXdQ/q6D5LjwIFVY.jpg?size=1100x1650&quality=96&sign=a7b14fedeb07fa29e86dfd3314ef7836&type=album"></div>
-    
-       <div class="imageItems"><img src="https://sun9-54.userapi.com/impg/zHHVRxitjLPN26-VL_B0kvH3zu0f5FYHmDWiOA/ofC3YRfJuBU.jpg?size=1100x1650&quality=96&sign=5c00429d26b420a09f347a1b26488e11&type=album"></div>
-    
-        <div class="imageItems"><img src="https://sun9-79.userapi.com/impg/pqUBHbrsTTNTqpp2msmU0TU9gZxzkVIbM1Jqhg/1thWJzlMx-A.jpg?size=1100x1650&quality=96&sign=f9cdb468f7d9828ce1d9ccdf017ecc82&type=album"></div>
-        </div>
-    
-        <div class="secondtwo">
-        <div class="imageItems" style="flex-basis: 50%;"><img src="https://sun9-71.userapi.com/impg/Y-Fz7gL-pmuRlbA3ZakbJYH5YpPlHtRy44t5VQ/H5LutPydQXQ.jpg?size=1100x1650&quality=96&sign=016b0efdc8686671d7c3c938074f068a&type=album"></div>
-    
-        <div class="imageItems" style="flex-basis: 50%;"><img src="https://sun9-70.userapi.com/impg/91IqqLX9gJH0vw-djCpzL871K01qyJM69kitqg/3grEHEOXrA4.jpg?size=1100x1650&quality=96&sign=9b0ea9921823f6cecf195f337a098934&type=album"></div>
-        </div>
-    
-        <div class="thirdthree">
-        <div class="imageItems"><img src="https://sun9-80.userapi.com/impg/rRyumF0vdT6NCXpMDBulHgt_wMs1KLqIaWuHfA/qzvpVklDass.jpg?size=1100x1650&quality=96&sign=8e1dc13fd13778136b6eb1c8180d4523&type=album"></div>
-    
-        <div class="imageItems"><img src="https://sun9-41.userapi.com/impg/_ISSnIURMkCZVu6di50ZijJbwYbF7KdSwhXEkQ/wEnSjJH6GCY.jpg?size=1100x1650&quality=96&sign=58c4b531fb4a83baef92d7cd298230f3&type=album"></div>
-    
-        <div class="imageItems"><img src="https://sun9-63.userapi.com/impg/hirCVpTisnPPkGgfHmfSBMMvoit5mFWBHYMFwQ/Cyybh-IXCdQ.jpg?size=1100x1650&quality=96&sign=fc2937ae4a4415daa73d1c219daa0ce7&type=album"></div>
-       </div>
-    
-         
-      </div>
-      <p></p>
+
+      <section class="section__image-list">
+        <ul class="section__image-list-container">
+          <li class="section__image-list-item">
+            <img src="https://sun9-3.userapi.com/impg/dJpjxyjglbp4mJevCLGPyDK_EB00Q8NaMafXdQ/q6D5LjwIFVY.jpg?size=1100x1650&quality=96&sign=a7b14fedeb07fa29e86dfd3314ef7836&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-54.userapi.com/impg/zHHVRxitjLPN26-VL_B0kvH3zu0f5FYHmDWiOA/ofC3YRfJuBU.jpg?size=1100x1650&quality=96&sign=5c00429d26b420a09f347a1b26488e11&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-79.userapi.com/impg/pqUBHbrsTTNTqpp2msmU0TU9gZxzkVIbM1Jqhg/1thWJzlMx-A.jpg?size=1100x1650&quality=96&sign=f9cdb468f7d9828ce1d9ccdf017ecc82&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-71.userapi.com/impg/Y-Fz7gL-pmuRlbA3ZakbJYH5YpPlHtRy44t5VQ/H5LutPydQXQ.jpg?size=1100x1650&quality=96&sign=016b0efdc8686671d7c3c938074f068a&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-70.userapi.com/impg/91IqqLX9gJH0vw-djCpzL871K01qyJM69kitqg/3grEHEOXrA4.jpg?size=1100x1650&quality=96&sign=9b0ea9921823f6cecf195f337a098934&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-80.userapi.com/impg/rRyumF0vdT6NCXpMDBulHgt_wMs1KLqIaWuHfA/qzvpVklDass.jpg?size=1100x1650&quality=96&sign=8e1dc13fd13778136b6eb1c8180d4523&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-41.userapi.com/impg/_ISSnIURMkCZVu6di50ZijJbwYbF7KdSwhXEkQ/wEnSjJH6GCY.jpg?size=1100x1650&quality=96&sign=58c4b531fb4a83baef92d7cd298230f3&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-63.userapi.com/impg/hirCVpTisnPPkGgfHmfSBMMvoit5mFWBHYMFwQ/Cyybh-IXCdQ.jpg?size=1100x1650&quality=96&sign=fc2937ae4a4415daa73d1c219daa0ce7&type=album">
+          </li>
+        </ul>
+      </section>
+          
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img src="./images/women-laughting-b&w-ptoto.jpg">
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="./images/woman-with-grass.jpg">
+              </div>
+          
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="./images/woman-laughting-b&w-photo-2.jpg">
+              </div>
+          
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src="./images/woman-stretch-leg.jpg">
+              </div>
+      
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="./images/woman-with-grass-2.jpg">
+              </div>
+          
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="./images/woman-seat.jpg">
+              </div>
+      
+              <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="./images/woman-dance.jpg">
+              </div>
+          
+              <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="./images/woman-dance-2.jpg">
+              </div>
+          
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+      
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span> 
+              <span class="dot" onclick="currentSlide(7)"></span> 
+              <span class="dot" onclick="currentSlide(8)"></span> 
+            </div>
+      </section>
+    </main>
+    <!-- END OF TAB CONTENT PERSONAL PHOTO-->
+
+    <!-- TAB CONTENT LOVE STORY -->
+    <main id="Love story" class="tabcontent">
+      <h3 class="priceList">Love Story</h3>
+      
+      <section class="section__image-list">
+        <ul class="section__image-list-container">
+          <li class="section__image-list-item">
+            <img src="https://sun9-55.userapi.com/impg/zTkGEvwuvhzEFn6NALd2W8YsoJ5fY0thY4tKSw/Q6ePOaGUSss.jpg?size=1100x733&quality=96&sign=369dfd4424bb38a08f70685735bbef72&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-60.userapi.com/impg/5f1OAehqoiVizZc0cUqmahwD6IMNmQ9OPwb3Gw/8fUiUeYtJZg.jpg?size=1100x733&quality=96&sign=5fcc5d3e32b752c56a925a2b810459bc&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-47.userapi.com/impg/o2hwi2ZftBF-IOb_-vxiVfKqtf4xEG5hKljGkA/qF1ufkdcNC0.jpg?size=1100x733&quality=96&sign=0aff7ab451bfd19bc8eb62c7397aef17&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-62.userapi.com/impg/BVp3rq-Jm-Msqdhbawxk9tFSFdVZ-Ro5qZKiwQ/OjvODdnNefc.jpg?size=1100x733&quality=96&sign=aeaec36d0a8d439c00055892ba20b5f6&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-36.userapi.com/impg/fW5C1P__wVpSDlhk9fTdvKW71KhMFE9KMmRdWQ/ofzHFi-sUKw.jpg?size=1100x733&quality=96&sign=4536077d91366956f3bb71f25335230f&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-64.userapi.com/impg/m39N9GdMl0J7UTyo0N7WtrDnUQaY_EoxrV-ohQ/lUKsBWfS0Hs.jpg?size=1100x738&quality=96&sign=e29f19a9cf8babd447a0e09f39612360&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-42.userapi.com/impg/ptmW2cmMreED85KVcgYgNKRlfqJcPyX8KH-Chg/csZDXrQ4Q4I.jpg?size=1100x730&quality=96&sign=0047e81b86f047c47e8f5341a1d02181&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-21.userapi.com/impg/VVu2u74AC0cC8ay2d5aqvcOxm_JEBcMkUPvaHw/v7s1pUZe_k8.jpg?size=1100x733&quality=96&sign=f841b21af23788a77e21a9b9734d3026&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-8.userapi.com/impg/5akMy0l-Z_OSBqqLlvtLblbTwgPIKsIk1k7TUQ/En-l5qd5cv4.jpg?size=1100x733&quality=96&sign=34738cc878e34ba4e63349ac47da6377&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-55.userapi.com/impg/zTkGEvwuvhzEFn6NALd2W8YsoJ5fY0thY4tKSw/Q6ePOaGUSss.jpg?size=1100x733&quality=96&sign=369dfd4424bb38a08f70685735bbef72&type=album">
+          </li>
+        </ul>
+      </section>
+      
       <div class="slideshow-container">
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">1 / 8</div>
-          <img src="https://sun9-33.userapi.com/impg/gyv0UUIlTkIxyIewurHF1QsI5TlCIpgZyKpw1w/QZzTqnHhVjU.jpg?size=1100x1650&quality=96&sign=4ce9e0065dca4a8b7136b76eb3a30507&type=album">
+          <img src="https://sun9-20.userapi.com/impg/C6vbUZVIEBnP6zUajCz6a9ZM26jrFO9QGZl6OQ/CzF9nMsHLUE.jpg?size=1100x736&quality=96&sign=60b8d8605235c5dd282741fa1026d8c7&type=album">
         </div>
         
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">2 / 8</div>
-          <img src="https://sun9-38.userapi.com/impg/82Qtza4kGUbkDH_IqMjUDghcYOJ_T06dRbFMBA/KgEgWYlXV9M.jpg?size=1100x1650&quality=96&sign=2237f8d9ef5d3ce103b712781bbddd49&type=album">
+          <img src="https://sun9-72.userapi.com/impg/9bPKrkR5Fm8pfHXp_5Fjrh7Fx63pKInZ9SyihQ/zEIK3PYNvtA.jpg?size=1100x733&quality=96&sign=a51355d00e9859332f092d6ee4d857ae&type=album">
         </div>
         
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">3 / 8</div>
-          <img src="https://sun9-2.userapi.com/impg/FbgfijaDb6kzA5MhUcBhf7LTqzivIqWB5G0snA/7x15q4TS8_8.jpg?size=1100x1650&quality=96&sign=0d460873c448278f010f3bdd693097a8&type=album">
+          <img src="https://sun9-48.userapi.com/impg/dMo1JYrlWWaSo_tmEyBO5jjT-laXtrK8YRlcZw/SLZyJqR0nC4.jpg?size=1100x734&quality=96&sign=6fd8c0a90ec7f9ec7763b5376134afe2&type=album">
         </div>
     
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">4 / 8</div>
-          <img src="https://sun9-40.userapi.com/impg/dNroVpwHpK8kLSJE7iZwZU-drFbn1Ft2HX5olg/mSzNU_1NsUQ.jpg?size=1100x1650&quality=96&sign=faea1e98501be8f448b3874d3822f03c&type=album">
+          <img src="https://sun9-61.userapi.com/impg/rSBCpbk51fDuexjwV1NS8TpNIngqCgV0YkKLAQ/HnGOuAjnaaE.jpg?size=1100x733&quality=96&sign=ec6066a3a4ea5bc07fe5134700f42df3&type=album">
         </div>
     
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">5 / 8</div>
-          <img src="https://sun9-16.userapi.com/impg/XBRvk53mO--QdSIxrgiDpOWCJy8mTH44oiBhgg/bNhlTi6lWyo.jpg?size=1100x1650&quality=96&sign=b63ca562511b51d5a279ea5027d619eb&type=album">
+          <img src="https://sun9-75.userapi.com/impg/UQjslYaxKUPdD58azQhsiKJdUnRYl74XPJVkmA/GqCMymNyETk.jpg?size=1100x733&quality=96&sign=127d7aaeb3bf5a24d4102ff736f1e35b&type=album">
         </div>
     
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">6 / 8</div>
-          <img src="https://sun9-12.userapi.com/impg/1xbbHW63yquuqAdIy45dHVgtVjObawpeOe3wOg/sLWbqDXqpSw.jpg?size=1100x1650&quality=96&sign=ab50a654c458579ec1ab7f93f3c44c07&type=album">
+          <img src="https://sun9-78.userapi.com/impg/3d90oPk1riv0e27QfOI3RZ-gcD2P-xFAI1-rXA/YappU8-yGvQ.jpg?size=1100x733&quality=96&sign=d460d57c0da623456f9fdfebdd04141f&type=album">
         </div>
     
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">7 / 8</div>
-          <img src="https://sun9-66.userapi.com/impg/T1W6-7O0RCgdH7g9rx9mJYug4S-3_ZmuUca21g/pwGduDuFuQ0.jpg?size=1100x1650&quality=96&sign=8e815f53b35c9d5014c4563b1d4f5a3d&type=album">
+          <img src="https://sun9-46.userapi.com/impg/ToCRx-1_47JmJABDccBmR066jznNY87AkXBMyA/NePs6M6f0bI.jpg?size=1100x733&quality=96&sign=556153070358503c29864322c9a0fb07&type=album">
         </div>
     
-        <div class="mySlides fade">
+        <div class="mySlidesLS fade">
           <div class="numbertext">8 / 8</div>
-          <img src="https://sun9-64.userapi.com/impg/04fqG6Z9Yzw7f4Q1onS7yIMR06AoQnJM8jdj6w/ULa4hKoqN1s.jpg?size=1100x1650&quality=96&sign=97278e132bda725b1652dc9b56bd2f2e&type=album">
+          <img src="https://sun9-43.userapi.com/impg/K9vGrazDxOB2yOTOgdNPA1R40Z2cv4xon24bFQ/rOFEFz6OU8E.jpg?size=1100x733&quality=96&sign=bddd1ec0ca192c6a74c2858986c1484a&type=album">
         </div>
         
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
+        <a class="prev" onclick="plusSlidesLoveStory(-1)">❮</a>
+        <a class="next" onclick="plusSlidesLoveStory(1)">❯</a>
         </div>
         <br>
     
         <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-          <span class="dot" onclick="currentSlide(4)"></span> 
-          <span class="dot" onclick="currentSlide(5)"></span> 
-          <span class="dot" onclick="currentSlide(6)"></span> 
-          <span class="dot" onclick="currentSlide(7)"></span> 
-          <span class="dot" onclick="currentSlide(8)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(1)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(2)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(3)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(4)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(5)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(6)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(7)"></span> 
+          <span class="dotLS" onclick="currentSlideLoveStory(8)"></span> 
         </div>
     </main>
-  </div>
- <!-- END OF TAB CONTENT PERSONAL PHOTO-->
+    <!-- END OF TAB CONTENT LOVE STORY-->
 
- <!-- TAB CONTENT LOVE STORY -->
- <div id="Love story" class="tabcontent">
-  <main>
+    <!-- TAB CONTENT EVENTS -->
+    <main id="Events" class="tabcontent">
+      <h3 class="priceList">Events</h3>
 
-    <h3 class="priceList">Love Story</h3>
-  
-    <div class="imageContainer">
-      <div class="firstthree">
-     <div class="imageItems"><img src="https://sun9-55.userapi.com/impg/zTkGEvwuvhzEFn6NALd2W8YsoJ5fY0thY4tKSw/Q6ePOaGUSss.jpg?size=1100x733&quality=96&sign=369dfd4424bb38a08f70685735bbef72&type=album"></div>
-  
-     <div class="imageItems"><img src="https://sun9-60.userapi.com/impg/5f1OAehqoiVizZc0cUqmahwD6IMNmQ9OPwb3Gw/8fUiUeYtJZg.jpg?size=1100x733&quality=96&sign=5fcc5d3e32b752c56a925a2b810459bc&type=album"></div>
-  
-      <div class="imageItems"><img src="https://sun9-47.userapi.com/impg/o2hwi2ZftBF-IOb_-vxiVfKqtf4xEG5hKljGkA/qF1ufkdcNC0.jpg?size=1100x733&quality=96&sign=0aff7ab451bfd19bc8eb62c7397aef17&type=album"></div>
-      </div>
-  
-      <div class="secondtwo">
-      <div class="imageItems"><img src="https://sun9-62.userapi.com/impg/BVp3rq-Jm-Msqdhbawxk9tFSFdVZ-Ro5qZKiwQ/OjvODdnNefc.jpg?size=1100x733&quality=96&sign=aeaec36d0a8d439c00055892ba20b5f6&type=album"></div>
-  
-      <div class="imageItems"><img src="https://sun9-36.userapi.com/impg/fW5C1P__wVpSDlhk9fTdvKW71KhMFE9KMmRdWQ/ofzHFi-sUKw.jpg?size=1100x733&quality=96&sign=4536077d91366956f3bb71f25335230f&type=album"></div>
-      </div>
-  
-      <div class="thirdthree">
-      <div class="imageItems"><img src="https://sun9-64.userapi.com/impg/m39N9GdMl0J7UTyo0N7WtrDnUQaY_EoxrV-ohQ/lUKsBWfS0Hs.jpg?size=1100x738&quality=96&sign=e29f19a9cf8babd447a0e09f39612360&type=album"></div>
-  
-      <div class="imageItems"><img src="https://sun9-42.userapi.com/impg/ptmW2cmMreED85KVcgYgNKRlfqJcPyX8KH-Chg/csZDXrQ4Q4I.jpg?size=1100x730&quality=96&sign=0047e81b86f047c47e8f5341a1d02181&type=album"></div>
-  
-      <div class="imageItems"><img src="https://sun9-21.userapi.com/impg/VVu2u74AC0cC8ay2d5aqvcOxm_JEBcMkUPvaHw/v7s1pUZe_k8.jpg?size=1100x733&quality=96&sign=f841b21af23788a77e21a9b9734d3026&type=album"></div>
-     </div>
-  
-       <div class="forthtwo">
-      <div class="imageItems"><img src="https://sun9-8.userapi.com/impg/5akMy0l-Z_OSBqqLlvtLblbTwgPIKsIk1k7TUQ/En-l5qd5cv4.jpg?size=1100x733&quality=96&sign=34738cc878e34ba4e63349ac47da6377&type=album"></div>
-  
-      <div class="imageItems"><img src="https://sun9-55.userapi.com/impg/zTkGEvwuvhzEFn6NALd2W8YsoJ5fY0thY4tKSw/Q6ePOaGUSss.jpg?size=1100x733&quality=96&sign=369dfd4424bb38a08f70685735bbef72&type=album"></div>
-      </div>
-    </div>
-    <p></p>
-    <div class="slideshow-container">
-      <div class="mySlidesLS fade">
-        <div class="numbertext">1 / 8</div>
-        <img src="https://sun9-20.userapi.com/impg/C6vbUZVIEBnP6zUajCz6a9ZM26jrFO9QGZl6OQ/CzF9nMsHLUE.jpg?size=1100x736&quality=96&sign=60b8d8605235c5dd282741fa1026d8c7&type=album">
-      </div>
-      
-      <div class="mySlidesLS fade">
-        <div class="numbertext">2 / 8</div>
-        <img src="https://sun9-72.userapi.com/impg/9bPKrkR5Fm8pfHXp_5Fjrh7Fx63pKInZ9SyihQ/zEIK3PYNvtA.jpg?size=1100x733&quality=96&sign=a51355d00e9859332f092d6ee4d857ae&type=album">
-      </div>
-      
-      <div class="mySlidesLS fade">
-        <div class="numbertext">3 / 8</div>
-        <img src="https://sun9-48.userapi.com/impg/dMo1JYrlWWaSo_tmEyBO5jjT-laXtrK8YRlcZw/SLZyJqR0nC4.jpg?size=1100x734&quality=96&sign=6fd8c0a90ec7f9ec7763b5376134afe2&type=album">
-      </div>
-  
-      <div class="mySlidesLS fade">
-        <div class="numbertext">4 / 8</div>
-        <img src="https://sun9-61.userapi.com/impg/rSBCpbk51fDuexjwV1NS8TpNIngqCgV0YkKLAQ/HnGOuAjnaaE.jpg?size=1100x733&quality=96&sign=ec6066a3a4ea5bc07fe5134700f42df3&type=album">
-      </div>
-  
-      <div class="mySlidesLS fade">
-        <div class="numbertext">5 / 8</div>
-        <img src="https://sun9-75.userapi.com/impg/UQjslYaxKUPdD58azQhsiKJdUnRYl74XPJVkmA/GqCMymNyETk.jpg?size=1100x733&quality=96&sign=127d7aaeb3bf5a24d4102ff736f1e35b&type=album">
-      </div>
-  
-      <div class="mySlidesLS fade">
-        <div class="numbertext">6 / 8</div>
-        <img src="https://sun9-78.userapi.com/impg/3d90oPk1riv0e27QfOI3RZ-gcD2P-xFAI1-rXA/YappU8-yGvQ.jpg?size=1100x733&quality=96&sign=d460d57c0da623456f9fdfebdd04141f&type=album">
-      </div>
-  
-      <div class="mySlidesLS fade">
-        <div class="numbertext">7 / 8</div>
-        <img src="https://sun9-46.userapi.com/impg/ToCRx-1_47JmJABDccBmR066jznNY87AkXBMyA/NePs6M6f0bI.jpg?size=1100x733&quality=96&sign=556153070358503c29864322c9a0fb07&type=album">
-      </div>
-  
-      <div class="mySlidesLS fade">
-        <div class="numbertext">8 / 8</div>
-        <img src="https://sun9-43.userapi.com/impg/K9vGrazDxOB2yOTOgdNPA1R40Z2cv4xon24bFQ/rOFEFz6OU8E.jpg?size=1100x733&quality=96&sign=bddd1ec0ca192c6a74c2858986c1484a&type=album">
-      </div>
-      
-      <a class="prev" onclick="plusSlidesLoveStory(-1)">❮</a>
-      <a class="next" onclick="plusSlidesLoveStory(1)">❯</a>
+      <section class="section__image-list">
+        <ul class="section__image-list-container">
+          <li class="section__image-list-item">
+            <img src="https://sun9-75.userapi.com/impg/0oMbbpwR4vX5FJjNvcu7ZUIQsA4yOWpBX8Wpow/X8VryGeE7oY.jpg?size=1100x733&quality=96&sign=2575405c4da282c6a054f67bc4d2517a&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-72.userapi.com/impg/N08AAWznHeXob7SItJp7Tt8_Et-4A581RlP_ug/zG-iILApm34.jpg?size=1100x733&quality=96&sign=da41db76b6987b1137b468720eeac8a3&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-65.userapi.com/impg/7yYtym-SQJWszjnW3ff6hw-XPqlhBoYHTZoH_Q/ieXzc1nKV9A.jpg?size=1100x731&quality=96&sign=2fd6e7672f54c49b66a596e6f9e92557&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-54.userapi.com/impg/MlQhKw3RlKzyZwhS3pRZOIlLbYMiB3TjQWsNPw/kDGtWm5v2dk.jpg?size=1100x731&quality=96&sign=91b47a4fd9f922070285126b8c9c7fcd&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-28.userapi.com/impg/8TNkhVWWzInOB6uWoMxIjaBObzyIVed5h0ekjw/WjOF5bOabh0.jpg?size=1100x733&quality=96&sign=c13fded102a03983e5196281318c6063&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-48.userapi.com/impg/RPUfPqPVb_wGzxpyhLMREflYhZKH6DgOQWiLdQ/l0FlBre3ek0.jpg?size=1100x733&quality=96&sign=29613a7e24c7bcc948305cb02f728389&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-59.userapi.com/impg/u33_bFESyHTiuhy1OqX9l_vMQfUKDrCXslcRbQ/YEOqaABfWCQ.jpg?size=1100x733&quality=96&sign=9f46db3fe081409846469d741c85b853&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-60.userapi.com/impg/8nRas2dJ_z-SFoT4kTCK-plQeJdY7slhEySmVA/T7BDETz718g.jpg?size=1100x733&quality=96&sign=651eb47d73b9910c1c8b43909f91c4d9&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-9.userapi.com/impg/iurP60T1QwZQf1IFwIZ1LP_ko0XUpXGdPGdGZw/7YNhPeBOg5g.jpg?size=1100x733&quality=96&sign=fc195bd58ec96e36add47226b7ea7a10&type=album">
+          </li>
+          <li class="section__image-list-item">
+            <img src="https://sun9-76.userapi.com/impg/CHa1fAXI_xb83cvhgvbX_NuyMojlB3Or7BIWgQ/-M2zNXZ41og.jpg?size=1100x733&quality=96&sign=0f440ca6b0458d3e3eb181071ee3b57f&type=album">
+          </li>
+        </ul>
+      </section>
+
+      <div class="slideshow-container">
+        <div class="mySlidesEV fade">
+          <div class="numbertext">1 / 8</div>
+          <img src="https://sun9-75.userapi.com/impg/zlfstCGwuGpUOxbp81qY1fNc5QFEPGaGOMew7g/JVa7j8wU1Uw.jpg?size=1100x733&quality=96&sign=c947ace36f282f54747c6d51dfa94579&type=album">
+        </div>
+
+        <div class="mySlidesEV fade">
+          <div class="numbertext">2 / 8</div>
+          <img src="https://sun9-16.userapi.com/impg/MLwtbgSdWTt_RWkk9FRRvbx6fONU7SsqHdAb6A/jGJ1QxubMNA.jpg?size=1100x733&quality=96&sign=7da113c360c9fdd38a163ecf3cffc14a&type=album">
+        </div>
+
+        <div class="mySlidesEV fade">
+          <div class="numbertext">3 / 8</div>
+          <img src="https://sun9-62.userapi.com/impg/ZpXoOw7teot-2MI-ZWwOntR3zQsd1b39M3YT_g/3iMi2jZWg0w.jpg?size=1100x733&quality=96&sign=da30b877d78cbe1f5288f15b9a45ad35&type=album">
+        </div>
+
+        <div class="mySlidesEV fade">
+          <div class="numbertext">4 / 8</div>
+          <img src="https://sun9-67.userapi.com/impg/hpCWreIh0QTWHUXLM2l0ZckLVwmdT6iDlj95lQ/lIM0OfmVuyk.jpg?size=1100x733&quality=96&sign=fc56fba9bca69ea80846d9e8ddf3ddc9&type=album">
+        </div>
+
+        <div class="mySlidesEV fade">
+          <div class="numbertext">5 / 8</div>
+          <img src="https://sun9-51.userapi.com/impg/2jbKNoNZXOWwnK4C6JOHoepsYpVTMiyMIapntg/kLrQel59Fmk.jpg?size=1100x733&quality=96&sign=1f1f14817309169d023d635eed33be59&type=album">
+        </div>
+
+        <div class="mySlidesEV fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="https://sun9-79.userapi.com/impg/t51xpMcsoszNy8QfKCnZpbP1-UNU0SpUp0RV4g/KLPPHviaPCM.jpg?size=1100x733&quality=96&sign=ac16aff7d9b68013697c1eed899ff7d4&type=album">
+        </div>
+
+        <div class="mySlidesEV fade">
+          <div class="numbertext">7 / 8</div>
+          <img src="https://sun9-30.userapi.com/impg/FQstRcMVeY_XjCQ9OEtkaZMCCKtj75f3SDZA-A/GAdbdSGgtIQ.jpg?size=1100x733&quality=96&sign=2cb18d28cb4242b9aa43106ce9215ad0&type=album">
+        </div>
+
+        <div class="mySlidesEV fade">
+          <div class="numbertext">8 / 8</div>
+          <img src="https://sun9-66.userapi.com/impg/ipG8pWKGjuk3ppeRuHap5QecVtws9JsdWB4TJw/Cf_PHYvSsuc.jpg?size=1100x733&quality=96&sign=60890d0536de8c339fe57812ce42b798&type=album">
+        </div>
+
+        <a class="prev" onclick="plusSlidesEvents(-1)">❮</a>
+        <a class="next" onclick="plusSlidesEvents(1)">❯</a>
       </div>
       <br>
-  
+
       <div style="text-align:center">
-        <span class="dotLS" onclick="currentSlideLoveStory(1)"></span> 
-        <span class="dotLS" onclick="currentSlideLoveStory(2)"></span> 
-        <span class="dotLS" onclick="currentSlideLoveStory(3)"></span> 
-        <span class="dotLS" onclick="currentSlideLoveStory(4)"></span> 
-        <span class="dotLS" onclick="currentSlideLoveStory(5)"></span> 
-        <span class="dotLS" onclick="currentSlideLoveStory(6)"></span> 
-        <span class="dotLS" onclick="currentSlideLoveStory(7)"></span> 
-        <span class="dotLS" onclick="currentSlideLoveStory(8)"></span> 
+        <span class="dotEV" onclick="currentSlideEvents(1)"></span>
+        <span class="dotEV" onclick="currentSlideEvents(2)"></span>
+        <span class="dotEV" onclick="currentSlideEvents(3)"></span>
+        <span class="dotEV" onclick="currentSlideEvents(4)"></span>
+        <span class="dotEV" onclick="currentSlideEvents(5)"></span>
+        <span class="dotEV" onclick="currentSlideEvents(6)"></span>
+        <span class="dotEV" onclick="currentSlideEvents(7)"></span>
+        <span class="dotEV" onclick="currentSlideEvents(8)"></span>
       </div>
-  </main>
- </div>
+    </main>
+    <!-- END OF TAB CONTENT EVENTS-->
 
- <!-- END OF TAB CONTENT LOVE STORY-->
-
- <!-- TAB CONTENT EVENTS -->
- <div id="Events" class="tabcontent">
-  <main>
-
-    <h3 class="priceList">Events</h3>
-
-    <div class="imageContainer">
-      <div class="firstthree">
-        <div class="imageItems"><img src="https://sun9-75.userapi.com/impg/0oMbbpwR4vX5FJjNvcu7ZUIQsA4yOWpBX8Wpow/X8VryGeE7oY.jpg?size=1100x733&quality=96&sign=2575405c4da282c6a054f67bc4d2517a&type=album"></div>
-
-        <div class="imageItems"><img src="https://sun9-72.userapi.com/impg/N08AAWznHeXob7SItJp7Tt8_Et-4A581RlP_ug/zG-iILApm34.jpg?size=1100x733&quality=96&sign=da41db76b6987b1137b468720eeac8a3&type=album"></div>
-
-        <div class="imageItems"><img src="https://sun9-65.userapi.com/impg/7yYtym-SQJWszjnW3ff6hw-XPqlhBoYHTZoH_Q/ieXzc1nKV9A.jpg?size=1100x731&quality=96&sign=2fd6e7672f54c49b66a596e6f9e92557&type=album"></div>
-      </div>
-
-      <div class="secondtwo">
-        <div class="imageItems" style="flex-basis: 50%;"><img src="https://sun9-54.userapi.com/impg/MlQhKw3RlKzyZwhS3pRZOIlLbYMiB3TjQWsNPw/kDGtWm5v2dk.jpg?size=1100x731&quality=96&sign=91b47a4fd9f922070285126b8c9c7fcd&type=album"></div>
-
-        <div class="imageItems" style="flex-basis: 50%;"><img src="https://sun9-28.userapi.com/impg/8TNkhVWWzInOB6uWoMxIjaBObzyIVed5h0ekjw/WjOF5bOabh0.jpg?size=1100x733&quality=96&sign=c13fded102a03983e5196281318c6063&type=album"></div>
-      </div>
-
-      <div class="thirdthree">
-        <div class="imageItems"><img src="https://sun9-48.userapi.com/impg/RPUfPqPVb_wGzxpyhLMREflYhZKH6DgOQWiLdQ/l0FlBre3ek0.jpg?size=1100x733&quality=96&sign=29613a7e24c7bcc948305cb02f728389&type=album"></div>
-
-        <div class="imageItems"><img src="https://sun9-59.userapi.com/impg/u33_bFESyHTiuhy1OqX9l_vMQfUKDrCXslcRbQ/YEOqaABfWCQ.jpg?size=1100x733&quality=96&sign=9f46db3fe081409846469d741c85b853&type=album"></div>
-
-        <div class="imageItems"><img src="https://sun9-60.userapi.com/impg/8nRas2dJ_z-SFoT4kTCK-plQeJdY7slhEySmVA/T7BDETz718g.jpg?size=1100x733&quality=96&sign=651eb47d73b9910c1c8b43909f91c4d9&type=album"></div>
-      </div>
-
-      <div class="forthtwo">
-        <div class="imageItems"><img src="https://sun9-9.userapi.com/impg/iurP60T1QwZQf1IFwIZ1LP_ko0XUpXGdPGdGZw/7YNhPeBOg5g.jpg?size=1100x733&quality=96&sign=fc195bd58ec96e36add47226b7ea7a10&type=album"></div>
-
-        <div class="imageItems"><img src="https://sun9-76.userapi.com/impg/CHa1fAXI_xb83cvhgvbX_NuyMojlB3Or7BIWgQ/-M2zNXZ41og.jpg?size=1100x733&quality=96&sign=0f440ca6b0458d3e3eb181071ee3b57f&type=album"></div>
-      </div>
-    </div>
-    <p></p>
-    <div class="slideshow-container">
-      <div class="mySlidesEV fade">
-        <div class="numbertext">1 / 8</div>
-        <img src="https://sun9-75.userapi.com/impg/zlfstCGwuGpUOxbp81qY1fNc5QFEPGaGOMew7g/JVa7j8wU1Uw.jpg?size=1100x733&quality=96&sign=c947ace36f282f54747c6d51dfa94579&type=album">
-      </div>
-
-      <div class="mySlidesEV fade">
-        <div class="numbertext">2 / 8</div>
-        <img src="https://sun9-16.userapi.com/impg/MLwtbgSdWTt_RWkk9FRRvbx6fONU7SsqHdAb6A/jGJ1QxubMNA.jpg?size=1100x733&quality=96&sign=7da113c360c9fdd38a163ecf3cffc14a&type=album">
-      </div>
-
-      <div class="mySlidesEV fade">
-        <div class="numbertext">3 / 8</div>
-        <img src="https://sun9-62.userapi.com/impg/ZpXoOw7teot-2MI-ZWwOntR3zQsd1b39M3YT_g/3iMi2jZWg0w.jpg?size=1100x733&quality=96&sign=da30b877d78cbe1f5288f15b9a45ad35&type=album">
-      </div>
-
-      <div class="mySlidesEV fade">
-        <div class="numbertext">4 / 8</div>
-        <img src="https://sun9-67.userapi.com/impg/hpCWreIh0QTWHUXLM2l0ZckLVwmdT6iDlj95lQ/lIM0OfmVuyk.jpg?size=1100x733&quality=96&sign=fc56fba9bca69ea80846d9e8ddf3ddc9&type=album">
-      </div>
-
-      <div class="mySlidesEV fade">
-        <div class="numbertext">5 / 8</div>
-        <img src="https://sun9-51.userapi.com/impg/2jbKNoNZXOWwnK4C6JOHoepsYpVTMiyMIapntg/kLrQel59Fmk.jpg?size=1100x733&quality=96&sign=1f1f14817309169d023d635eed33be59&type=album">
-      </div>
-
-      <div class="mySlidesEV fade">
-        <div class="numbertext">6 / 8</div>
-        <img src="https://sun9-79.userapi.com/impg/t51xpMcsoszNy8QfKCnZpbP1-UNU0SpUp0RV4g/KLPPHviaPCM.jpg?size=1100x733&quality=96&sign=ac16aff7d9b68013697c1eed899ff7d4&type=album">
-      </div>
-
-      <div class="mySlidesEV fade">
-        <div class="numbertext">7 / 8</div>
-        <img src="https://sun9-30.userapi.com/impg/FQstRcMVeY_XjCQ9OEtkaZMCCKtj75f3SDZA-A/GAdbdSGgtIQ.jpg?size=1100x733&quality=96&sign=2cb18d28cb4242b9aa43106ce9215ad0&type=album">
-      </div>
-
-      <div class="mySlidesEV fade">
-        <div class="numbertext">8 / 8</div>
-        <img src="https://sun9-66.userapi.com/impg/ipG8pWKGjuk3ppeRuHap5QecVtws9JsdWB4TJw/Cf_PHYvSsuc.jpg?size=1100x733&quality=96&sign=60890d0536de8c339fe57812ce42b798&type=album">
-      </div>
-
-      <a class="prev" onclick="plusSlidesEvents(-1)">❮</a>
-      <a class="next" onclick="plusSlidesEvents(1)">❯</a>
-    </div>
-    <br>
-
-    <div style="text-align:center">
-      <span class="dotEV" onclick="currentSlideEvents(1)"></span>
-      <span class="dotEV" onclick="currentSlideEvents(2)"></span>
-      <span class="dotEV" onclick="currentSlideEvents(3)"></span>
-      <span class="dotEV" onclick="currentSlideEvents(4)"></span>
-      <span class="dotEV" onclick="currentSlideEvents(5)"></span>
-      <span class="dotEV" onclick="currentSlideEvents(6)"></span>
-      <span class="dotEV" onclick="currentSlideEvents(7)"></span>
-      <span class="dotEV" onclick="currentSlideEvents(8)"></span>
-    </div>
-  </main>
-</div>
-  <!-- END OF TAB CONTENT EVENTS-->
-
-<!-- TAB CONTENT PRICELIST -->
-<div id="Price" class="tabcontent">
-  <main>
-    <h3 class="priceList">Прайс-лист</h3>
-    <div class="indiphoto">
-      <div class="left">
-        <p>Индивидуальная фотосъёмка</p>
-      </div>
-      <div class="right">
-        <p>Индивидуальная фотосессия (строго 1 человек)
-          Минимальное время съемки - 1 час
-          Помощь в подборе локации, студии, а также рекомендации по выбору стилиста-визажиста, проката одежды и тп.
-          По итогам:
-          Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
-          Срок обработки - 2 недели
-          Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.
-        15   тыс драм </p>
-      </div>
-      <div class="price">
-        <div class="photoPrice">
-        <img src="https://sun9-77.userapi.com/impg/8w9vqRzXbF2eVk8_ktgirMJj-tiKDyHIkCrWdQ/e6elQl1I2Mc.jpg?size=1100x1650&quality=96&sign=d8f70207b400d124e386658cf23bec91&type=album">
-        <p class="centerhead">Фотопрогулка</p>
-        <p class="centerhead2">15 000 dr</p>
+    <!-- TAB CONTENT PRICELIST -->
+    <main id="Price" class="tabcontent">
+      <h3 class="priceList">Прайс-лист</h3>
+      <div class="indiphoto">
+        <div class="left">
+          <p>Индивидуальная фотосъёмка</p>
         </div>
-        <div class="photoPrice">
-          <img src="https://sun9-37.userapi.com/impg/k43atnOw0_jOcNklPM8xBnTBgws021Ynb_xCSQ/qq5y4CKqZUA.jpg?size=1100x1650&quality=95&sign=887ff9a076cdd00ca1c551047b84fc65&type=album">
+        <div class="right">
+          <p>Индивидуальная фотосессия (строго 1 человек)
+            Минимальное время съемки - 1 час
+            Помощь в подборе локации, студии, а также рекомендации по выбору стилиста-визажиста, проката одежды и тп.
+            По итогам:
+            Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
+            Срок обработки - 2 недели
+            Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.
+          4000 рублей. </p>
         </div>
-        <div class="photoPrice">
-          <img src="https://sun9-12.userapi.com/impg/SG1GLjy9oCxLbBLj4tOVm1Ka0WJKvWvU-SLg4g/mqL9sCBjFEM.jpg?size=1100x1650&quality=95&sign=7e7fbeeee615eba8d63dcaa1a6e71523&type=album">
+        <div class="price">
+          <div class="photoPrice">
+          <img src="https://sun9-77.userapi.com/impg/8w9vqRzXbF2eVk8_ktgirMJj-tiKDyHIkCrWdQ/e6elQl1I2Mc.jpg?size=1100x1650&quality=96&sign=d8f70207b400d124e386658cf23bec91&type=album">
+          <p class="centerhead">Фотопрогулка</p>
+          <p class="centerhead2">4000 руб.</p>
+          </div>
+          <div class="photoPrice">
+            <img src="https://sun9-37.userapi.com/impg/k43atnOw0_jOcNklPM8xBnTBgws021Ynb_xCSQ/qq5y4CKqZUA.jpg?size=1100x1650&quality=95&sign=887ff9a076cdd00ca1c551047b84fc65&type=album">
+          </div>
+          <div class="photoPrice">
+            <img src="https://sun9-12.userapi.com/impg/SG1GLjy9oCxLbBLj4tOVm1Ka0WJKvWvU-SLg4g/mqL9sCBjFEM.jpg?size=1100x1650&quality=95&sign=7e7fbeeee615eba8d63dcaa1a6e71523&type=album">
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="indiphoto">
-      <div class="left">
-        <p>Семейная фотосъёмка</p>
-      </div>
-      <div class="right">
-        <p>Семейная фотосессия (фото лав-стори)
-          Минимальное время съемки - 1 час
-          Помощь в подборе локации, студии, а также рекомендации по выбору стилиста-визажиста, проката одежды и тп.
-          По итогам:
-          Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
-          Срок обработки - 2 недели
-          Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.
-        20 ты драм </p>
-      </div>
-      <div class="price">
-        <div class="photoPrice">
-        <img src="https://sun9-73.userapi.com/impg/7bRBOJcYf5S9urOO6AIYYdzHMzvMRmZp7f9rOg/k7aWbcat7ho.jpg?size=1100x1650&quality=96&sign=c63922dc58a57c22c8fb555ef349a3b6&type=album">
-
-        <p class="centerhead">Семейное фото</p>
-        <p class="centerhead2">20 000 dr</p>
+      <div class="indiphoto">
+        <div class="left">
+          <p>Семейная фотосъёмка</p>
         </div>
-        <div class="photoPrice">
-          <img src="https://sun9-69.userapi.com/impg/WF1nj8mO0XM5UTeG-k7iBe6_l1Et0tNaXPC5ug/slixt67Pwow.jpg?size=1100x1650&quality=96&sign=54fb2011a16d04daad3ccbe2ba9719d8&type=album">
+        <div class="right">
+          <p>Семейная фотосессия (фото лав-стори)
+            Минимальное время съемки - 1 час
+            Помощь в подборе локации, студии, а также рекомендации по выбору стилиста-визажиста, проката одежды и тп.
+            По итогам:
+            Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
+            Срок обработки - 2 недели
+            Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.
+          5000 рублей </p>
         </div>
-        <div class="photoPrice">
-          <img src="https://sun9-30.userapi.com/impg/W2NcUWU3Ra6fCzD1-K7ZWcW7m9MjechzJ3sEQw/A5-1zzZRkPI.jpg?size=1100x1650&quality=96&sign=885d41cbadae0b5ca575c49d540fc741&type=album">
+        <div class="price">
+          <div class="photoPrice">
+          <img src="https://sun9-73.userapi.com/impg/7bRBOJcYf5S9urOO6AIYYdzHMzvMRmZp7f9rOg/k7aWbcat7ho.jpg?size=1100x1650&quality=96&sign=c63922dc58a57c22c8fb555ef349a3b6&type=album">
+
+          <p class="centerhead">Семейное фото</p>
+          <p class="centerhead2">5000 руб</p>
+          </div>
+          <div class="photoPrice">
+            <img src="https://sun9-69.userapi.com/impg/WF1nj8mO0XM5UTeG-k7iBe6_l1Et0tNaXPC5ug/slixt67Pwow.jpg?size=1100x1650&quality=96&sign=54fb2011a16d04daad3ccbe2ba9719d8&type=album">
+          </div>
+          <div class="photoPrice">
+            <img src="https://sun9-30.userapi.com/impg/W2NcUWU3Ra6fCzD1-K7ZWcW7m9MjechzJ3sEQw/A5-1zzZRkPI.jpg?size=1100x1650&quality=96&sign=885d41cbadae0b5ca575c49d540fc741&type=album">
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="morePrice">
-      <div class="leftColumn">
-        <img src="https://sun9-48.userapi.com/impg/kXPlsGG7JJX3FjXUtiThBJrNyV9i8xrUHMCi7w/FlDWzIFFErY.jpg?size=1100x733&quality=95&sign=bafcd8e5dae20b5f2efbceceae9c1845&type=album">
+      <div class="morePrice">
+        <div class="leftColumn">
+          <img src="https://sun9-48.userapi.com/impg/kXPlsGG7JJX3FjXUtiThBJrNyV9i8xrUHMCi7w/FlDWzIFFErY.jpg?size=1100x733&quality=95&sign=bafcd8e5dae20b5f2efbceceae9c1845&type=album">
+          <p class="leftColumn__name">Репортаж</p>
+          <p class="leftColumn__price">3500 руб/час</p>
+          <h2>Events</h2>
+          <p>Events
+            Минимальное время съемки - от 2-х часов. 
+            По итогам:
+            Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
+            Срок обработки - 2 недели
+            Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.
+          3500 тысячи рублей в час.</p>
 
-        <h2>Events</h2>
-        <p>Events
-          Минимальное время съемки - от 2-х часов. 
-          По итогам:
-          Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
-          Срок обработки - 2 недели
-          Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.</p>
+        </div>
+        <div class="rightColumn">
+          <img src="https://sun9-59.userapi.com/impg/11hLSeMHaCivDHMNRd2IIP0_K4QvSuBU9AZ_9w/UVAxFkXu3R8.jpg?size=1100x733&quality=96&sign=c25b09b57c55b612e69c052fb1b26290&type=album">
+          <h2>Love story</h2>
+          <p>Love story
+            Минимальное время съемки - 1 час
+            Помощь в подборе локации, студии, а также рекомендации по выбору стилиста-визажиста, проката одежды и тп.
+            По итогам:
+            Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
+            Срок обработки - 2 недели
+            Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.
+          15 тыс драм </p>
 
+        </div>
       </div>
-      <div class="rightColumn">
-        <img src="https://sun9-59.userapi.com/impg/11hLSeMHaCivDHMNRd2IIP0_K4QvSuBU9AZ_9w/UVAxFkXu3R8.jpg?size=1100x733&quality=96&sign=c25b09b57c55b612e69c052fb1b26290&type=album">
+    </main>
+    <!-- END OF TAB CONTENT PRICELIST-->
 
-        <h2>Love story</h2>
-        <p>Love story
-          Минимальное время съемки - 1 час
-          Помощь в подборе локации, студии, а также рекомендации по выбору стилиста-визажиста, проката одежды и тп.
-          По итогам:
-          Не менее 80 фото/час с базовой обработкой (цветокоррекция, кадрирование, легкая ретушь мелких деталей)
-          Срок обработки - 2 недели
-          Материал отдается через файлообменник и хранится не более 3-х месяцев с даты съемки.
-        15 тыс драм </p>
+    <footer class="footer">
+        <h2 id="contact" class="footer__main-title">КОНТАКТЫ</h2>
+      <hr>
+      <nav class="footer__nav-container">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-list-item">
+            <a href="https://www.instagram.com/Photoarmeniya/" target="blank">Instagram</a>
+            <p>Личный блог</p>
+          </li>
+          <li class="footer__nav-list-item">
+            <a href="https://vk.com/photos101403476" target="blank"> ВКонтакте</a>
+            <p>Больше фото в альбомах</p>
+          </li>
+          <li class="footer__nav-list-item">
+            <a href="https://t.me/Juliyaphoto" target="_blank">Telegram</a>
+            <p>Напишите мне</p>
+          </li>
+        </ul>
+      </nav>
 
-      </div>
-    </div>
-
-  </main>
-</div>
-<!-- END OF TAB CONTENT PRICELIST-->
-
-
- 
-
-  </div>
-  </div>
-  <nav class="nav">
-    <div class="main_title_navbar">
-      <h4 id="contact">КОНТАКТЫ</h4>
-    </div>
-    <hr>
-    <div class="links">
-      <div class="alink">
-        <a href="https://www.instagram.com/Photoarmeniya/" target="blank">Instagram</a>
-        <p>Личный блог</p>
-      </div>
-      <div class="alink">
-        <a href="https://vk.com/photos101403476" target="blank"> ВКонтакте</a>
-        <p>Больше фото в альбомах</p>
-      </div>
-      <div class="alink">
-        <a href="https://t.me/Juliyaphoto" target="_blank">Telegram</a>
-        <p>Напишите мне</p>
-      </div>
-    </div>
-  </nav>
-
-
-  <div class="footer">
-    <div class="footerlink">
-      <div class="icons">
-        <a href="https://www.instagram.com/Photoarmeniya/" target="blank"><img
-            src="https://cdn-icons-png.flaticon.com/512/3621/3621464.png"></a>
-      </div>
-      <div class="icons">
-        <a href="https://vk.com/zabiyakaphoto" target="blank"><img
-            src="https://cdn.icon-icons.com/icons2/687/PNG/512/vkontakte_icon-icons.com_61245.png"></a>
-      </div>
-    </div>
-    <p>
-      <a href="#Start">
-        <h4>School of photography by Balashova Julia</h4>
-      </a>
-    </p>
-  </div>
-
-  <script defer src="./script.js"></script>
-</body>
-
-
-
+      <nav class="">
+        <ul class="footer__icons-list">
+          <li class="footer__icons-list-item">
+            <a href="https://www.instagram.com/Photoarmeniya/" target="blank"><img
+                src="https://cdn-icons-png.flaticon.com/512/3621/3621464.png"></a>
+          </li>
+          <li class="footer__icons-list-item">
+            <a href="https://vk.com/zabiyakaphoto" target="blank"><img
+                src="https://cdn.icon-icons.com/icons2/687/PNG/512/vkontakte_icon-icons.com_61245.png"></a>
+          </li>
+        </ul>
+      </nav>
+      
+        <a href="#Start">
+          <h4>School of photography by Balashova Julia</h4>
+        </a>
+     
+    </footer>
+    <script defer src="./script.js"></script>
+  </body>
 </html>

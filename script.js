@@ -1,47 +1,50 @@
-function mainPage () {
-  let mainShow = document.getElementById("MainPage");
-  mainShow.style.display = "block";
-   
-}
 
-let tablinks = document.getElementsByClassName("tablinks");
+/*При загрузке страницы отображаем главную страницу*/
 
-function openPage(evt, cityName) {
-    // Declare all variables
-    let i, tabcontent, tablinks;
-
-    /* Get all elements with class="tabcontent" and hide them */
-    
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    } 
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-
-    window.scrollTo ({
-      top: 0,
-      behavior: "smooth",
+document.addEventListener("DOMContentLoaded", function() {
+  mainPage();
+   // Обработчики для навигационных кнопок
+  const tablinks = document.querySelectorAll(".tablinks");
+  tablinks.forEach(button => {
+    button.addEventListener("click", function(evt) {
+      openPage(evt, this.getAttribute('data-page'));
     });
-    
+  });
+});
+
+function mainPage() {
+  let mainShow = document.getElementById("main-page");
+  mainShow.style.display = "block";
 }
 
-tablinks[0].addEventListener("touchmove", openPage);
-tablinks[1].addEventListener("touchmove", openPage);
-tablinks[2].addEventListener("touchmove", openPage);
-tablinks[3].addEventListener("touchmove", openPage);
-tablinks[4].addEventListener("touchmove", openPage);
+function openPage(evt, pageName) {
+  let i, tabcontent, tablinks;
+  
+  // Скрытие всех контентов
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  } 
+  
+  // Удаление класса "active" у всех кнопок
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Показ выбранного контента и добавление класса "active" к кнопке
+  document.getElementById(pageName).style.display = "block";
+  evt.currentTarget.className += " active";
+
+  // Прокрутка страницы вверх
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
 
 
-
+/*Слайды*/
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -69,7 +72,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+/*GPT VERSION */
 
+/*END GPT VERSION */
+
+/*Слайды лов стори*/
 let slideIndexLoveStory = 1;
 showSlidesLoveStory(slideIndexLoveStory);
 
@@ -97,7 +104,7 @@ function showSlidesLoveStory(n) {
   dotsLoveStory[slideIndexLoveStory-1].className += " active";
 }
 
-
+/*Слайды эвенты*/
 let slideIndexEvents = 1;
 showSlidesEvents(slideIndexEvents);
 
